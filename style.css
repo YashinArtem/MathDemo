@@ -1,0 +1,37 @@
+.demo-div {
+    border-radius: 32px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 15vh;
+}
+
+.graphics-div {
+    display: inline-block;
+    width: 40vmin;
+    height: 40vmin;
+}
+
+.code-div {
+    display: inline-block;
+    width: 100vw;
+    height: 40vmin;
+    overflow: hidden;
+}
+
+.code-div pre {
+    height: inherit;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.graphics-view {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.demo-header {
+    text-align: center;
+    font-family: sans-serif;
+    color: #777;
+}
